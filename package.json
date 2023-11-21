@@ -1,7 +1,7 @@
 {
   "name": "clase17",
   "version": "1.0.0",
-  "description": "Mercado Liebre",
+  "description": "Creación de Mercado Liebre",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
