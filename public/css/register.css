@@ -1,12 +1,17 @@
 /* Main register*/
 
 .main-reg{
-    width: 400px;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-evenly;
     padding-top: 18px;
     padding-bottom: 18px;
+    flex-direction: row-reverse;
+}
+
+.container-form{
+    width: 600px;
+    display: flex;
     flex-direction: column;
 }
 

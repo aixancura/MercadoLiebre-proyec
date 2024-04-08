@@ -13,13 +13,13 @@
 </head>
 <body>
   <header class="container">
-    <div>
-    <nav class="header-nav"><a href="/"><img src = '/img/logo-mercado-liebre.svg' alt="Logo Mercado Liebre" width="200" height="100"></a>
+    <div class="container-header">
+    <nav class="header-nav"><a href="/"><img class="logo-img" src = '/img/logo-mercado-liebre.svg' alt="Logo Mercado Liebre"></a>
     <form class="nav-search">
       <input class="nav-search-inp" type="text" name="search-bar" placeholder="Buscar productos, marcas">
-      <button class="nav-search-b"><i class="fa-solid fa-magnifying-glass"></i></button>
-    </form></nav>
-    <h4 class="buy"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h4>
+      <span class="nav-search-b"><i class="fa-solid fa-magnifying-glass"></i></span>
+    </form>
+    <h4 class="buy"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h4></nav>
       <div class="div-nav">
         <ul class="site-nav">
           <li type="none"><a href="#">Ofertas</a></li>
@@ -37,10 +37,11 @@
         <a href="#" class="burger-menu">
         <i class="fas fa-bars"></i></a>
       </div>
-        <img src="/img/img-home-banner.jpg" alt="Banner de Mercado Liebre" width="400">
+        <img class="img-bann" src="/img/img-home-banner.jpg" alt="Banner de Mercado Liebre">
     </div>
-  </header>
+    </header>
   <main class="main-reg">
+   <div class="container-form">
    <div class="form-div">
     <h2>Registrate</h2>
     <form action="" method="POST">
@@ -51,7 +52,7 @@
     <input class="tnt-inp" type="email" name="email" placeholder="Email" required>
       
      <label class="lab-for">Fecha de nacimiento</label>
-      <input class="tnt-inp" type="date" name="fecha" value="10/31/1985" required>
+      <input class="tnt-inp" type="date" name="fecha" value="dd-mm-">
     
     </br>
 
@@ -83,6 +84,7 @@
     <button class="btn-reg" type="reset">Borrar</button>
     </form>
    </div>
+  </div>
   </main>
   <footer class="foot-container">
     <section class="foot-ul1">
@@ -108,5 +110,4 @@
    </section>
  </footer>
 </body>
-</html>
 </html>
